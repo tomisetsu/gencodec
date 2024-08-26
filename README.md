@@ -4,4 +4,4 @@ The generated methods add features which json and other marshaling packages cann
 
 	gencodec -dir . -type MyType -formats json,yaml,toml -out mytype_json.go
 
-See [the documentation for more details](https://godoc.org/github.com/AlexanderMint/gencodec).
+See [the documentation for more details](https://godoc.org/github.com/AlexanderMint/gencodec2).

@@ -1,4 +1,4 @@
-module github.com/AlexanderMint/gencodec
+module github.com/AlexanderMint/gencodec2
 
 go 1.18
 
