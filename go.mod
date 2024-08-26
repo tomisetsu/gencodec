@@ -3,12 +3,19 @@ module github.com/fjl/gencodec
 go 1.18
 
 require (
-	github.com/garslo/gogen v0.0.0-20170306192744-1d203ffc1f61
-	github.com/kylelemons/godebug v0.0.0-20170224010052-a616ab194758
-	golang.org/x/tools v0.0.0-20191126055441-b0650ceb63d9
+	github.com/garslo/gogen v0.0.0-20230926014519-f497ca02dd4c
+	github.com/kylelemons/godebug v1.1.0
+	golang.org/x/tools v0.24.0
 )
 
 require (
-	github.com/onsi/ginkgo v1.10.3 // indirect
-	github.com/onsi/gomega v1.7.1 // indirect
+	github.com/fsnotify/fsnotify v1.7.0 // indirect
+	github.com/nxadm/tail v1.4.11 // indirect
+	github.com/onsi/ginkgo v1.16.5 // indirect
+	github.com/onsi/gomega v1.34.1 // indirect
+	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
+	golang.org/x/mod v0.20.0 // indirect
+	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/sys v0.24.0 // indirect
+	golang.org/x/text v0.17.0 // indirect
 )
