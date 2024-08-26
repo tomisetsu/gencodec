@@ -2,13 +2,13 @@
 // Use of this source code is governed by the MIT license,
 // which can be found in the LICENSE file.
 
-//go:generate go run github.com/fjl/gencodec -type Y -field-override yo -formats json,yaml,toml -out output.go
+//go:generate go run github.com/AlexanderMint/gencodec -type Y -field-override yo -formats json,yaml,toml -out output.go
 
 package nameclash
 
 import (
-	errors "github.com/fjl/gencodec/internal/clasherrors"
-	json "github.com/fjl/gencodec/internal/clashjson"
+	errors "github.com/AlexanderMint/gencodec/internal/clasherrors"
+	json "github.com/AlexanderMint/gencodec/internal/clashjson"
 )
 
 // This one clashes with the generated intermediate type name.
