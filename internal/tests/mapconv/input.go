@@ -2,7 +2,7 @@
 // Use of this source code is governed by the MIT license,
 // which can be found in the LICENSE file.
 
-//go:generate go run github.com/AlexanderMint/gencodec2 -type X -field-override Xo -formats json,yaml,toml -out output.go
+//go:generate go run github.com/tomisetsu/gencodec -type X -field-override Xo -formats json,yaml,toml -out output.go
 
 package mapconv
 
